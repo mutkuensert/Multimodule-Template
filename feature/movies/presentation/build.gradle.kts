@@ -1,5 +1,5 @@
 plugins {
-    id("base-feature")
+    id("base-presentation")
 }
 
 android {
@@ -7,7 +7,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":feature:movies:domain"))
+    implementation(projects.feature.movies.domain)
     implementation(libraries.androidxPagingCompose)
     implementation(libraries.coilCompose)
     implementation(libraries.coilNetworkOkhttp)

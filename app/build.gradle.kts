@@ -55,12 +55,11 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:ui"))
-    implementation(project(":core:data"))
-    implementation(project(":core:injection"))
-    implementation(project(":feature:movies:presentation"))
+    implementation(projects.core.ui)
+    implementation(projects.core.data)
+    implementation(projects.core.injection)
+    implementation(projects.feature.movies.presentation)
     base()
     baseAndroid()
-    coroutines()
     compose()
 }

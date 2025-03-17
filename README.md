@@ -120,13 +120,13 @@ It applies:
 - Common Android configurations (SDK versions, JVM target, etc.)
 - Base dependencies
 
-### base-feature.gradle.kts
+### base-presentation.gradle.kts
 
 This plugin configures feature presentation modules with Compose support:
 
 ```kotlin
 plugins {
-    id("base-feature")
+    id("base-presentation")
 }
 ```
 
