@@ -10,7 +10,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":core:ui"))
+    api(project(":core:ui"))
     baseAndroid()
     compose()
 }
